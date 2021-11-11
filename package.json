@@ -1,0 +1,31 @@
+{
+  "name": "@ostro/config",
+  "version": "0.0.0-alpha.0",
+  "description": "make you config easy to use on nodejs",
+  "engines": {
+    "node": ">= 12.0"
+  },
+  "main": "repository.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "@ostro/support": "^0.0.0-alpha.0",
+    "lodash.get": "^4.4.2",
+    "lodash.set": "^4.3.2"
+  },
+  "keywords": [
+    "config",
+    "nodejs config"
+  ],
+  "author": "amar",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ostrojs/config.git"
+  },
+  "bugs": {
+    "url": "https://github.com/ostrojs/config/issues"
+  },
+  "homepage": "https://github.com/ostrojs/config#readme"
+}
