@@ -1,22 +1,22 @@
 {
   "name": "@ostro/config",
   "version": "0.0.0-alpha.0",
-  "description": "make you config easy to use on nodejs",
-  "engines": {
-    "node": ">= 12.0"
-  },
+  "description": "Config module for OstroJS",
   "main": "repository.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "dependencies": {
-    "@ostro/support": "^0.0.0-alpha.0",
+    "@ostro/support": "^0.0.0-alpha",
     "lodash.get": "^4.4.2",
     "lodash.set": "^4.3.2"
   },
+  "engines": {
+    "node": ">=12.0.0"
+  },
+  "engineStrict": true,
   "keywords": [
-    "config",
-    "nodejs config"
+    "config"
   ],
   "author": "amar",
   "license": "MIT",
