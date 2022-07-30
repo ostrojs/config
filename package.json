@@ -1,6 +1,6 @@
 {
   "name": "@ostro/config",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Config module for OstroJS",
   "main": "repository.js",
   "scripts": {
