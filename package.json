@@ -1,19 +1,19 @@
 {
     "name": "@ostro/config",
-    "version": "2.0.0-alpha.1",
+    "version": "2.0.0-alpha.2",
     "description": "Config module for OstroJS",
     "main": "build/repository.js",
-    "types": "build/repository.d.ts",
+    "types": "build/types/repository.d.ts",
     "files": [
         "build"
     ],
     "exports": {
         ".": {
-            "types": "./build/repository.d.ts",
+            "types": "./build/types/repository.d.ts",
             "default": "./build/repository.js"
         },
         "./*": {
-            "types": "./build/*.d.ts",
+            "types": "./build/types/*.d.ts",
             "default": "./build/*.js"
         }
     },
@@ -24,7 +24,7 @@
         "clean": "rm -rf build coverage"
     },
     "dependencies": {
-        "@ostro/support": "^2.0.0-alpha.1",
+        "@ostro/support": "^2.0.0-alpha.2",
         "lodash.get": "^4.4.2",
         "lodash.set": "^4.3.2"
     },
