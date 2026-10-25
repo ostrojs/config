@@ -1,3 +1,4 @@
+import { describe, test, expect } from "@jest/globals";
 import Config from '../src/repository';
 
 describe('Config Repository Unit Tests', () => {

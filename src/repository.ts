@@ -4,7 +4,6 @@ import ObjectGet from 'lodash.get';
 import ObjectSet from 'lodash.set';
 import { Macroable } from '@ostro/support/macro';
 
-/** Symbol for internal configuration storage. */
 const kConfig: unique symbol = Symbol('config');
 
 /**
@@ -12,7 +11,6 @@ const kConfig: unique symbol = Symbol('config');
  * with proxy-based property delegation.
  */
 class Config extends Macroable implements IConfigRepository {
-    /** Internal configuration storage. */
     [kConfig]: Record<string, unknown>;
 
     /**
@@ -22,10 +20,7 @@ class Config extends Macroable implements IConfigRepository {
      */
     constructor($items: Record<string, unknown> = {}) {
         super();
-        Object.defineProperty(this, kConfig, {
-            value: $items,
-            writable: true,
-        });
+        this[kConfig] = $items;
     }
 
     /**
